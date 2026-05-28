@@ -188,8 +188,8 @@ export const brandKit = {
     accent: "Optional serif for legacy banners only",
   },
   logoConcepts: [
-    "Neon Slinger's wordmark with Bar N Grill plate, Dynasty arc, and SoD badge (public/logo-sod.svg).",
-    "Lower scene: Labatt Blue bottle, neon pole, and football icon.",
-    "Vegas-night backdrop with magenta horizon and skyline silhouette.",
+    "Primary mark: classic parchment scroll with slinger arm release and football trail (public/logo-sod.svg).",
+    "Top line set to SoD for compact league shorthand.",
+    "Bottom line set to Slinger's of Dynasty for full identity lockup.",
   ],
 };

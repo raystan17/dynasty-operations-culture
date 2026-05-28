@@ -689,7 +689,7 @@ export function CommissionerHub() {
               <div className="mt-3 flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <LeagueLogo size="md" />
                 <div className="text-xs text-slate-300">
-                  <p>Slinger&apos;s neon mark with Bar N Grill arc, Dynasty banner, Labatt Blue, pole &amp; football.</p>
+                  <p>Classic scroll + slinger arm mark with football trail and updated SoD / Slinger&apos;s of Dynasty text.</p>
                   <div className="mt-2 flex flex-wrap gap-3">
                     <a
                       href="/logo-sod.svg"
