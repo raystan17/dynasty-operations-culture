@@ -188,7 +188,7 @@ export const brandKit = {
     accent: "Optional serif for legacy banners only",
   },
   logoConcepts: [
-    "Primary mark: classic parchment scroll with slinger arm release and football trail (public/logo-sod.svg).",
+    "Primary mark: classic parchment scroll with slinger arm release and football trail (public/logo-sod.png).",
     "Top line set to SoD for compact league shorthand.",
     "Bottom line set to Slinger's of Dynasty for full identity lockup.",
   ],

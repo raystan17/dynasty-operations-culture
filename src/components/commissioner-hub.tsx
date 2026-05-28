@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import { CopyBlock } from "@/components/copy-block";
 import { LeagueLogo } from "@/components/league-logo";
+import { LOGO_ASSET } from "@/lib/brand-assets";
 import {
   brandKit,
   leagueIdentity as initialLeagueIdentity,
@@ -692,11 +693,11 @@ export function CommissionerHub() {
                   <p>Classic scroll + slinger arm mark with football trail and updated SoD / Slinger&apos;s of Dynasty text.</p>
                   <div className="mt-2 flex flex-wrap gap-3">
                     <a
-                      href="/logo-sod.svg"
-                      download="sod-league-logo.svg"
+                      href={LOGO_ASSET}
+                      download="sod-league-logo.png"
                       className="text-amber-300 underline-offset-2 hover:underline"
                     >
-                      Download SVG
+                      Download PNG
                     </a>
                   </div>
                 </div>
