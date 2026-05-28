@@ -222,18 +222,18 @@ export function AppShell({ username, role, children }: AppShellProps) {
         <div className="flex items-center gap-3 border-b border-slate-800 px-4 py-3">
           <div className="shrink-0">
             <Image
-              src="/logo-dos-navy.png"
-              alt="D.O.S."
+              src="/logo-sod.svg"
+              alt="SoD"
               width={56}
-              height={37}
+              height={56}
               priority
-              className="drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
+              className="rounded-lg drop-shadow-[0_2px_8px_rgba(255,111,225,0.35)]"
             />
           </div>
           <div className="min-w-0">
-            <p className="truncate text-base font-bold tracking-wide text-white">D.O.S.</p>
+            <p className="truncate text-base font-bold tracking-wide text-white">SoD</p>
             <p className="truncate text-[10px] uppercase tracking-[0.2em] text-amber-300/90">
-              Dynasty of Slingers
+              Slinger&apos;s of Dynasty
             </p>
           </div>
           <button
@@ -330,12 +330,12 @@ export function AppShell({ username, role, children }: AppShellProps) {
 
           <div className="flex items-center gap-2 lg:hidden">
             <Image
-              src="/logo-dos-navy.png"
-              alt="D.O.S."
-              width={48}
-              height={32}
+              src="/logo-sod.svg"
+              alt="SoD"
+              width={40}
+              height={40}
               priority
-              className="drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
+              className="rounded-md drop-shadow-[0_2px_6px_rgba(255,111,225,0.35)]"
             />
           </div>
 

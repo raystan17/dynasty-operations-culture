@@ -51,8 +51,8 @@ export type LegacyEvent = {
 };
 
 export const leagueIdentity: LeagueIdentity = {
-  leagueName: "Dynasty of Slingers",
-  shortCode: "DOS",
+  leagueName: "Slinger's of Dynasty",
+  shortCode: "SoD",
   seasonYear: 2026,
   status: "provisional",
   tone: "Clean, modern, personal, and competitive.",
@@ -62,11 +62,11 @@ export const leagueIdentity: LeagueIdentity = {
     "Slinger was a family nickname that carried local legend energy. This league is inspired by that legacy, carrying it forward as a long-term dynasty identity.",
   motto: "Built on legacy. Won by Slingers.",
   renameCandidates: [
+    "Slinger's of Dynasty",
     "Dynasty of Slingers",
     "Legacy of Slingers",
     "Slinger Standard",
     "The Slinger Ledger",
-    "Slinger Dynasty League",
   ],
 };
 
@@ -188,8 +188,8 @@ export const brandKit = {
     accent: "Optional serif for legacy banners only",
   },
   logoConcepts: [
-    "Active placeholder: scroll logo with D.O.S. wordmark and slinger arm (public/logo-dos.svg).",
-    "Monogram mark: DOS with football-shaped O and throw-arc S.",
-    "Wordmark: Dynasty of Slingers with minimal arc line above text.",
+    "Neon Slinger's wordmark with Bar N Grill plate, Dynasty arc, and SoD badge (public/logo-sod.svg).",
+    "Lower scene: Labatt Blue bottle, neon pole, and football icon.",
+    "Vegas-night backdrop with magenta horizon and skyline silhouette.",
   ],
 };

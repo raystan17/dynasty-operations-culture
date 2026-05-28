@@ -490,7 +490,7 @@ export function CommissionerHub() {
         id="legacy"
         eyebrow="Legacy"
         title="Legacy Ledger"
-        subtitle="The all-time book on D.O.S."
+        subtitle="The all-time book on SoD."
       >
         <Panel title="Legacy Ledger">
           <div className="overflow-x-auto">
@@ -680,7 +680,7 @@ export function CommissionerHub() {
         id="brand"
         eyebrow="Brand Kit"
         title="Logo, Palette, Typography"
-        subtitle="The look that makes D.O.S. feel like D.O.S."
+        subtitle="The look that makes SoD feel like SoD."
       >
         <Panel title="Brand Kit">
           <div className="space-y-4">
@@ -689,21 +689,14 @@ export function CommissionerHub() {
               <div className="mt-3 flex flex-col items-center gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <LeagueLogo size="md" />
                 <div className="text-xs text-slate-300">
-                  <p>Cartoon slinger arm releasing the rock, with the D.O.S. scroll banner.</p>
+                  <p>Slinger&apos;s neon mark with Bar N Grill arc, Dynasty banner, Labatt Blue, pole &amp; football.</p>
                   <div className="mt-2 flex flex-wrap gap-3">
                     <a
-                      href="/logo-dos-navy.png"
-                      download="dos-league-logo.png"
+                      href="/logo-sod.svg"
+                      download="sod-league-logo.svg"
                       className="text-amber-300 underline-offset-2 hover:underline"
                     >
-                      Download PNG
-                    </a>
-                    <a
-                      href="/logo-dos.svg"
-                      download="dos-league-logo.svg"
-                      className="text-amber-300 underline-offset-2 hover:underline"
-                    >
-                      Download SVG (mark)
+                      Download SVG
                     </a>
                   </div>
                 </div>

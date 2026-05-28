@@ -13,14 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D.O.S. Commissioner Hub",
-  description: "Dynasty of Slingers - Sleeper-first league operations and culture workspace.",
+  title: "SoD Commissioner Hub",
+  description: "Slinger's of Dynasty - Sleeper-first league operations and culture workspace.",
   icons: {
-    icon: [
-      { url: "/logo-dos.svg", type: "image/svg+xml" },
-      { url: "/logo-dos-navy.png", type: "image/png" },
-    ],
-    apple: "/logo-dos-navy.png",
+    icon: [{ url: "/logo-sod.svg", type: "image/svg+xml" }],
+    apple: "/logo-sod.svg",
   },
 };
 

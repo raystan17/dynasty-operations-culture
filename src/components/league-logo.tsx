@@ -25,12 +25,12 @@ export function LeagueLogo({
   return (
     <div className={`flex flex-col items-center gap-2 ${className}`}>
       <Image
-        src="/logo-dos-navy.png"
-        alt="D.O.S. Dynasty of Slingers"
+        src="/logo-sod.svg"
+        alt="SoD Slinger's of Dynasty"
         width={dims.width}
         height={dims.height}
         priority={priority || size === "lg"}
-        className="drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)]"
+        className="drop-shadow-[0_4px_18px_rgba(255,111,225,0.35)]"
       />
       {showLabel ? (
         <p className={`uppercase tracking-[0.25em] text-amber-300/90 ${dims.text}`}>Legacy League</p>

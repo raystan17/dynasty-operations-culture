@@ -6,7 +6,7 @@ This app is designed for two league operators:
 - Commissioner: Webs
 - Co-Commissioner: You
 
-The current league identity defaults to `Dynasty of Slingers (DOS)` but the data model is rename-safe.
+The current league identity defaults to `Slinger's of Dynasty (SoD)` but the data model is rename-safe.
 
 ## What is included
 
