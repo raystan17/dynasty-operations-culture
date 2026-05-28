@@ -31,7 +31,7 @@ export function LeagueLogo({
         width={dims.width}
         height={dims.height}
         priority={priority || size === "lg"}
-        className="drop-shadow-[0_4px_18px_rgba(255,111,225,0.35)]"
+        className="drop-shadow-sm"
       />
       {showLabel ? (
         <p className={`uppercase tracking-[0.25em] text-amber-300/90 ${dims.text}`}>Legacy League</p>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "SoD Commissioner Hub",
   description: "Slinger's of Dynasty - Sleeper-first league operations and culture workspace.",
   icons: {
-    icon: [{ url: LOGO_ASSET, type: "image/svg+xml" }],
+    icon: [{ url: LOGO_ASSET, type: "image/png" }],
     apple: LOGO_ASSET,
   },
 };

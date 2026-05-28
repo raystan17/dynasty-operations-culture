@@ -228,7 +228,7 @@ export function AppShell({ username, role, children }: AppShellProps) {
               width={56}
               height={56}
               priority
-              className="rounded-lg drop-shadow-[0_2px_8px_rgba(255,111,225,0.35)]"
+              className="rounded-lg"
             />
           </div>
           <div className="min-w-0">
@@ -336,7 +336,7 @@ export function AppShell({ username, role, children }: AppShellProps) {
               width={40}
               height={40}
               priority
-              className="rounded-md drop-shadow-[0_2px_6px_rgba(255,111,225,0.35)]"
+              className="rounded-md"
             />
           </div>
 

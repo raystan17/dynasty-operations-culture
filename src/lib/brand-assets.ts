@@ -1,2 +1,2 @@
-// Bump this token whenever logo artwork changes to force cache refresh on browsers/CDNs.
-export const LOGO_ASSET = "/logo-sod.png?v=20260527-2";
+// Keep this as a plain local path for Next Image compatibility.
+export const LOGO_ASSET = "/logo-sod-navy.png";
