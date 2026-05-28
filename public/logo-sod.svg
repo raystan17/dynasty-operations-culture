@@ -1,269 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Slinger's Bar N Grill - SoD Dynasty">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" role="img" aria-label="SoD Slinger's of Dynasty logo">
   <defs>
-    <radialGradient id="bgGrad" cx="50%" cy="55%" r="75%">
-      <stop offset="0%" stop-color="#3B1E5E"/>
-      <stop offset="45%" stop-color="#1A0F3D"/>
-      <stop offset="100%" stop-color="#0A0620"/>
-    </radialGradient>
-
-    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FF3DCB" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FF3DCB" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#7A1FA8" stop-opacity="0"/>
+    <linearGradient id="scrollFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6E8" />
+      <stop offset="100%" stop-color="#F3DEC0" />
     </linearGradient>
-
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="50%" stop-color="#E0F7FF"/>
-      <stop offset="100%" stop-color="#9FE8FF"/>
+    <linearGradient id="goldStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A621C" />
+      <stop offset="45%" stop-color="#C9983A" />
+      <stop offset="100%" stop-color="#7A5317" />
     </linearGradient>
-
-    <linearGradient id="neonPink" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FF6FE1"/>
-      <stop offset="100%" stop-color="#C13DC9"/>
-    </linearGradient>
-
-    <linearGradient id="poleGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFE6FA"/>
-      <stop offset="50%" stop-color="#FF6FE1"/>
-      <stop offset="100%" stop-color="#9FE8FF"/>
-    </linearGradient>
-
-    <linearGradient id="labattBlue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1E4FB8"/>
-      <stop offset="100%" stop-color="#0B2A6B"/>
-    </linearGradient>
-
-    <linearGradient id="bottleBrown" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3A1F0C"/>
-      <stop offset="50%" stop-color="#6B3E1E"/>
-      <stop offset="100%" stop-color="#3A1F0C"/>
-    </linearGradient>
-
-    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.35" />
     </filter>
-
-    <filter id="haloGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <clipPath id="appClip">
-      <rect x="0" y="0" width="400" height="400" rx="64" ry="64"/>
-    </clipPath>
   </defs>
 
-  <g clip-path="url(#appClip)">
-    <!-- Night sky background -->
-    <rect width="400" height="400" fill="url(#bgGrad)"/>
+  <!-- dark navy background -->
+  <rect width="680" height="420" rx="24" fill="#060F2C" />
 
-    <!-- Faint star field -->
-    <g fill="#FFE6FA" opacity="0.5">
-      <circle cx="40" cy="40" r="0.8"/>
-      <circle cx="110" cy="20" r="0.6"/>
-      <circle cx="280" cy="35" r="0.7"/>
-      <circle cx="360" cy="50" r="0.5"/>
-      <circle cx="60" cy="85" r="0.6"/>
-      <circle cx="200" cy="18" r="0.8"/>
-    </g>
+  <!-- football and throw trails -->
+  <g transform="translate(0 -6)">
+    <path d="M355 112 C410 118 462 132 520 160" fill="none" stroke="#C8942F" stroke-width="4" stroke-linecap="round" />
+    <path d="M360 98 C428 104 500 124 564 154" fill="none" stroke="#D5A13B" stroke-width="4" stroke-linecap="round" />
+    <path d="M362 86 C450 90 530 114 610 146" fill="none" stroke="#B8852A" stroke-width="4" stroke-linecap="round" />
 
-    <!-- Field-line floor hint -->
-    <g opacity="0.18" stroke="#7A1FA8" stroke-width="1">
-      <line x1="0" y1="320" x2="400" y2="320"/>
-      <line x1="0" y1="345" x2="400" y2="345"/>
-      <line x1="0" y1="370" x2="400" y2="370"/>
-    </g>
-
-    <!-- Skyline silhouette -->
-    <g fill="#0A0620" opacity="0.85">
-      <polygon points="0,300 30,280 50,288 70,260 100,270 130,245 150,255 180,232 210,244 240,222 270,237 300,217 330,234 360,212 400,227 400,400 0,400"/>
-    </g>
-    <g fill="#FFE6FA" opacity="0.75">
-      <circle cx="70" cy="258" r="1.4"/>
-      <circle cx="150" cy="252" r="1.4"/>
-      <circle cx="240" cy="220" r="1.4"/>
-      <circle cx="330" cy="230" r="1.4"/>
-    </g>
-
-    <!-- Horizon neon glow -->
-    <rect x="0" y="210" width="400" height="120" fill="url(#horizon)"/>
-
-    <!-- ===== "DYNASTY" curved banner at top ===== -->
-    <g filter="url(#neonGlow)">
-      <path id="dynastyArc" d="M 90 88 Q 200 36 310 88" fill="none" stroke="none"/>
-      <text
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="20"
-        font-weight="700"
-        letter-spacing="10"
-        fill="#FFFFFF"
-      >
-        <textPath href="#dynastyArc" startOffset="50%" text-anchor="middle">DYNASTY</textPath>
-      </text>
-    </g>
-    <!-- Tiny star dividers around DYNASTY -->
-    <g fill="#FF6FE1" filter="url(#neonGlow)">
-      <polygon points="75,85 78,92 85,92 79,96 81,103 75,99 69,103 71,96 65,92 72,92" transform="scale(0.5) translate(75 95)"/>
-      <polygon points="325,85 328,92 335,92 329,96 331,103 325,99 319,103 321,96 315,92 322,92" transform="scale(0.5) translate(560 95)"/>
-    </g>
-
-    <!-- ===== NEON HALO RING ===== -->
-    <g filter="url(#haloGlow)">
-      <circle cx="200" cy="190" r="118" fill="none" stroke="url(#neonPink)" stroke-width="3" opacity="0.85"/>
-    </g>
-    <circle cx="200" cy="190" r="118" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
-    <circle cx="200" cy="190" r="108" fill="none" stroke="#9FE8FF" stroke-width="0.8" opacity="0.4"/>
-
-    <!-- ===== "Slinger's" cursive neon wordmark ===== -->
-    <g filter="url(#neonGlow)">
-      <text
-        x="200"
-        y="210"
-        text-anchor="middle"
-        font-family="'Brush Script MT', 'Lucida Handwriting', cursive"
-        font-size="92"
-        font-style="italic"
-        font-weight="400"
-        fill="url(#neon)"
-        stroke="#FFFFFF"
-        stroke-width="0.5"
-      >Slinger's</text>
-    </g>
-
-    <!-- ===== "Bar N Grill" curved neon tag (under wordmark) ===== -->
-    <path id="barArc" d="M 130 240 Q 200 268 270 240" fill="none" stroke="none"/>
-    <g filter="url(#neonGlow)">
-      <text
-        font-family="'Brush Script MT', 'Lucida Handwriting', cursive"
-        font-size="22"
-        font-style="italic"
-        font-weight="400"
-        fill="#FF6FE1"
-        letter-spacing="2"
-      >
-        <textPath href="#barArc" startOffset="50%" text-anchor="middle">Bar N Grill</textPath>
-      </text>
-    </g>
-    <!-- Decorative dots flanking the script -->
-    <g fill="#FF6FE1" filter="url(#neonGlow)" opacity="0.9">
-      <circle cx="118" cy="244" r="2"/>
-      <circle cx="282" cy="244" r="2"/>
-    </g>
-
-    <!-- ===== LABATT BLUE bottle (lower-left, proper shape) ===== -->
-    <g transform="translate(70 328) rotate(-14)">
-      <!-- Bottle silhouette: cap → neck → tapered shoulder → body → rounded bottom -->
-      <path
-        d="
-          M -7 -90
-          L 7 -90
-          L 7 -82
-          L 6 -80
-          L 6 -60
-          C 6 -56, 14 -52, 14 -42
-          L 14 6
-          C 14 12, 10 16, 0 16
-          C -10 16, -14 12, -14 6
-          L -14 -42
-          C -14 -52, -6 -56, -6 -60
-          L -6 -80
-          L -7 -82
-          Z
-        "
-        fill="url(#bottleBrown)"
-        stroke="#1A0C04"
-        stroke-width="1.2"
-        stroke-linejoin="round"
-      />
-      <!-- Silver cap -->
-      <ellipse cx="0" cy="-90" rx="7.5" ry="2.5" fill="#D0D0D0" stroke="#5A5A5A" stroke-width="0.6"/>
-      <rect x="-7" y="-92" width="14" height="3" fill="#C0C0C0" stroke="#5A5A5A" stroke-width="0.5"/>
-
-      <!-- Neck shadow -->
-      <path d="M -5 -78 L -5 -62 M 5 -78 L 5 -62" stroke="#1A0C04" stroke-width="0.6" opacity="0.6"/>
-
-      <!-- Wrap-around blue label (rounded to follow bottle curve) -->
-      <path
-        d="
-          M -12 -32
-          C -13 -32, -14 -31, -14 -29
-          L -14 -11
-          C -14 -9, -13 -8, -12 -8
-          L 12 -8
-          C 13 -8, 14 -9, 14 -11
-          L 14 -29
-          C 14 -31, 13 -32, 12 -32
-          Z
-        "
-        fill="url(#labattBlue)"
-        stroke="#FFFFFF"
-        stroke-width="0.7"
-        stroke-linejoin="round"
-      />
-      <!-- Top arched LABATT text -->
-      <path id="labattArc" d="M -11 -24 Q 0 -32 11 -24" fill="none" stroke="none"/>
-      <text font-family="Arial, sans-serif" font-size="4.5" font-weight="700" letter-spacing="0.5" fill="#FFFFFF">
-        <textPath href="#labattArc" startOffset="50%" text-anchor="middle">LABATT</textPath>
-      </text>
-      <!-- Big BLUE -->
-      <text
-        y="-14"
-        text-anchor="middle"
-        font-family="Arial Black, sans-serif"
-        font-size="8"
-        font-weight="900"
-        letter-spacing="0.8"
-        fill="#FFFFFF"
-      >BLUE</text>
-      <!-- Tiny maple leaf hint -->
-      <path d="M 0 -10 l -1.5 1.5 l -1.5 -1 l 0.8 1.8 l -1.8 0.3 l 1.5 1 l -0.7 1.6 l 1.7 -0.6 l 0.5 1.8 l 0.5 -1.8 l 1.7 0.6 l -0.7 -1.6 l 1.5 -1 l -1.8 -0.3 l 0.8 -1.8 l -1.5 1 z"
-        fill="#FFFFFF" opacity="0.85"/>
-
-      <!-- Glass highlight -->
-      <path d="M -10 -78 Q -11 -40 -10 12" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity="0.22" stroke-linecap="round"/>
-      <!-- Bottom shadow curve -->
-      <ellipse cx="0" cy="14" rx="11" ry="2" fill="#000000" opacity="0.35"/>
-    </g>
-
-    <!-- ===== NEON POLE (lower-right) ===== -->
-    <g transform="translate(328 330)">
-      <g filter="url(#neonGlow)">
-        <rect x="-1.5" y="-100" width="3" height="110" fill="url(#poleGrad)"/>
-      </g>
-      <rect x="-10" y="-104" width="20" height="4" rx="1" fill="#9FE8FF" opacity="0.7"/>
-      <ellipse cx="0" cy="14" rx="26" ry="6" fill="#0A0620" stroke="#FF6FE1" stroke-width="1.2" opacity="0.85"/>
-    </g>
-
-    <!-- ===== FOOTBALL (top-left) ===== -->
-    <g transform="translate(70 70) rotate(-22)">
-      <ellipse rx="22" ry="13" fill="#6B3E1E" stroke="#FF6FE1" stroke-width="1.5"/>
-      <line x1="-15" y1="0" x2="15" y2="0" stroke="#FFE6FA" stroke-width="1.2"/>
-      <path d="M-7 -4 L0 0 L7 4 M-7 4 L0 0 L7 -4" stroke="#FFE6FA" stroke-width="1" fill="none"/>
-    </g>
-
-    <!-- ===== SoD badge ===== -->
-    <g transform="translate(330 60)" filter="url(#neonGlow)">
-      <circle r="26" fill="#0A0620" stroke="url(#neonPink)" stroke-width="2"/>
-      <text
-        text-anchor="middle"
-        y="6"
-        font-family="Georgia, serif"
-        font-size="18"
-        font-weight="700"
-        letter-spacing="1.5"
-        fill="#FFFFFF"
-      >SoD</text>
+    <g transform="translate(602 126) rotate(16)">
+      <ellipse cx="0" cy="0" rx="52" ry="30" fill="#7C4A1F" stroke="#3A2615" stroke-width="4" />
+      <path d="M-34 0 H34" stroke="#F5E8D0" stroke-width="3" />
+      <path d="M-18 -10 L0 0 L18 10 M-18 10 L0 0 L18 -10" stroke="#F5E8D0" stroke-width="2.4" fill="none" />
     </g>
   </g>
 
-  <rect x="2" y="2" width="396" height="396" rx="62" ry="62" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.1"/>
+  <!-- arm -->
+  <g transform="translate(196 54)" fill="#F1C79A" stroke="#2A1A12" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- upper arm / forearm contour -->
+    <path d="M78 118 C64 86 64 64 78 50 C90 38 112 36 126 48 C140 62 140 86 126 104 C116 118 100 126 86 132 Z" />
+    <!-- hand / fingers flick -->
+    <path d="M88 58 C98 34 106 22 116 10 C120 6 126 6 128 12 C130 18 126 26 122 32 C132 14 140 8 148 6 C154 4 158 10 156 16 C154 24 146 32 138 38 C148 26 158 20 166 20 C172 20 176 26 174 32 C172 40 162 44 154 50 C162 42 170 40 176 42 C182 44 182 52 176 56 C164 64 144 66 126 68" fill="none" />
+  </g>
+
+  <!-- scroll -->
+  <g transform="translate(58 190)" filter="url(#shadow)">
+    <!-- side rolls -->
+    <g transform="translate(8 42)">
+      <ellipse cx="0" cy="0" rx="18" ry="56" fill="#D0A255" stroke="#7C5A24" stroke-width="3" />
+      <ellipse cx="0" cy="0" rx="8.5" ry="40" fill="#F4D9A8" stroke="#9B7431" stroke-width="2" />
+      <circle cx="0" cy="58" r="14" fill="#C7923C" stroke="#6F4E1E" stroke-width="3" />
+      <circle cx="0" cy="58" r="5.5" fill="#E9C882" />
+    </g>
+    <g transform="translate(606 42)">
+      <ellipse cx="0" cy="0" rx="18" ry="56" fill="#D0A255" stroke="#7C5A24" stroke-width="3" />
+      <ellipse cx="0" cy="0" rx="8.5" ry="40" fill="#F4D9A8" stroke="#9B7431" stroke-width="2" />
+      <circle cx="0" cy="58" r="14" fill="#C7923C" stroke="#6F4E1E" stroke-width="3" />
+      <circle cx="0" cy="58" r="5.5" fill="#E9C882" />
+    </g>
+
+    <!-- main banner -->
+    <path d="M34 0 H580 C596 0 606 12 606 28 V86 C606 102 596 114 580 114 H34 C18 114 8 102 8 86 V28 C8 12 18 0 34 0 Z"
+      fill="url(#scrollFill)" stroke="url(#goldStroke)" stroke-width="4" />
+    <!-- subtle creases -->
+    <path d="M62 0 L56 114 M170 0 L176 114 M300 0 L294 114 M430 0 L436 114 M540 0 L534 114" stroke="#D3B17A" stroke-width="1.6" opacity="0.45" />
+
+    <!-- top text -->
+    <text x="306" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+      font-size="84" font-weight="700" letter-spacing="7" fill="#061134">SoD</text>
+
+    <!-- bottom text -->
+    <text x="306" y="94" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+      font-size="48" font-weight="700" letter-spacing="1.8" fill="#0A1D45">Slinger&apos;s of Dynasty</text>
+
+    <!-- small diamonds -->
+    <g fill="#D9A63A">
+      <path d="M210 74 l6 6 l-6 6 l-6 -6 z" />
+      <path d="M402 74 l6 6 l-6 6 l-6 -6 z" />
+    </g>
+  </g>
 </svg>
