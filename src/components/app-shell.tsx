@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import { logoutAction } from "@/app/actions/auth";
+import { LOGO_ASSET } from "@/lib/brand-assets";
 
 export type CategoryId =
   | "overview"
@@ -222,7 +223,7 @@ export function AppShell({ username, role, children }: AppShellProps) {
         <div className="flex items-center gap-3 border-b border-slate-800 px-4 py-3">
           <div className="shrink-0">
             <Image
-              src="/logo-sod.svg"
+              src={LOGO_ASSET}
               alt="SoD"
               width={56}
               height={56}
@@ -330,7 +331,7 @@ export function AppShell({ username, role, children }: AppShellProps) {
 
           <div className="flex items-center gap-2 lg:hidden">
             <Image
-              src="/logo-sod.svg"
+              src={LOGO_ASSET}
               alt="SoD"
               width={40}
               height={40}

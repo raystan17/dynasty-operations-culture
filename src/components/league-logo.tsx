@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { LOGO_ASSET } from "@/lib/brand-assets";
 
 type LeagueLogoProps = {
   size?: "xs" | "sm" | "md" | "lg";
@@ -25,7 +26,7 @@ export function LeagueLogo({
   return (
     <div className={`flex flex-col items-center gap-2 ${className}`}>
       <Image
-        src="/logo-sod.svg"
+        src={LOGO_ASSET}
         alt="SoD Slinger's of Dynasty"
         width={dims.width}
         height={dims.height}

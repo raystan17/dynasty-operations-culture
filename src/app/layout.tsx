@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { LOGO_ASSET } from "@/lib/brand-assets";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,8 +17,8 @@ export const metadata: Metadata = {
   title: "SoD Commissioner Hub",
   description: "Slinger's of Dynasty - Sleeper-first league operations and culture workspace.",
   icons: {
-    icon: [{ url: "/logo-sod.svg", type: "image/svg+xml" }],
-    apple: "/logo-sod.svg",
+    icon: [{ url: LOGO_ASSET, type: "image/svg+xml" }],
+    apple: LOGO_ASSET,
   },
 };
 
